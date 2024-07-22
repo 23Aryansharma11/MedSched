@@ -38,7 +38,7 @@ const Header = () => {
       <span className="hidden md:flex justify-around items-center gap-20">
         {Menu.map((menuItem, index) => {
           const isActive =
-            pathName == menuItem.path || pathName.startsWith(menuItem.path);
+            pathName == menuItem.path ||  (menuItem.path !== "/" && pathName.startsWith(menuItem.path));
           return (
             <Link
               href={menuItem.path}
