@@ -43,8 +43,8 @@ const Header = () => {
             <Link
               href={menuItem.path}
               key={index}
-              className={`font-semibold hover:text-blue-500 ${
-                isActive && "text-blue-500"
+              className={`font-semibold hover:text-blue-600 ${
+                isActive && "text-blue-600"
               }`}
             >
               {menuItem.name}
@@ -53,7 +53,7 @@ const Header = () => {
         })}
       </span>
       {/* Todo: optional rendering of button and profile */}
-      <Button className="bg-transparent text-blue-500 border-blue-500 border-2 hover:text-white hover:bg-blue-500  transition-colors duration-300 ease-in-out font-bold">
+      <Button className="bg-transparent text-blue-600 border-blue-500 border-2 hover:text-white hover:bg-blue-500  transition-colors duration-300 ease-in-out font-bold">
         Get Started
       </Button>
     </header>

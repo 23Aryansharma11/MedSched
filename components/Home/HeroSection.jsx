@@ -19,8 +19,8 @@ const HeroSection = () => {
 
           <div className="lg:py-24">
             <h2 className="text-3xl font-bold sm:text-4xl ">
-              Find & Book <span className="text-blue-500">Appointments</span>{" "}
-              with your Favourite <span className="text-blue-500">Doctors</span>
+              Find & Book <span className="text-blue-600">Appointments</span>{" "}
+              with your Favourite <span className="text-blue-600">Doctors</span>
             </h2>
 
             <p className="mt-4 text-gray-600">
